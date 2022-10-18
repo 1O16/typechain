@@ -1,0 +1,16 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "lib": ["ES6"],
+    "strict": true,
+    "module": "CommonJS"
+    // "allowJs": true
+  }
+}
+// target : 타입스크립트가 컴파일 될 자바스크립트의 버전을 정해줌
+// lib : 타입스크립트에게 코드가 어디서 실행되는지 알려줌으로써 환경에 따라 타입에 대해 알려줌
+// esModuleInterop :
+// allowJs : 타입스크립트와 자바스크립트를 같이 사용할 수 있게 해줌
